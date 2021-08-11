@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="assets/css/gallery.css">
+    <!-- fullnav css -->
+    <link rel="stylesheet" href="assets/css/fullnav.css" />
+    <!-- navbar -->
+    <link rel="stylesheet" href="assets/css/navbar.css" />
+      <!-- dark-mode -->
+    <link rel="stylesheet" href="assets/css/darkmode.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    </head>
+<body>
+    <ul>
+        <li onclick="myFunction()" style="float: right">
+          <i class="fa fa-moon-o" aria-hidden="true"></i>
+        </li>
+        <li href="#" onclick="openNav()" style="float: left">&#9776;</li>
+      </ul>
+  
+      <!-- The overlay -->
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="index.html">Home</a>
+        </div>
+      </div>
+<!-- Header -->
+<div class="header">
+  <h1>Designs</h1>
+  <p>Creative Designs</p>
+</div>
+<!-- Photo Grid -->
+<div class="row"> 
+    <div class="column">
+      <img src="assets/img/IMG_20210611_073646_063.jpg" style="width:100%">
+      <img src="assets/img/IMG_20210613_120155.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="assets/img/IMG_20210612_092124_535.jpg" style="width:100%">
+      <img src="assets/img/IMG_20210613_120206.jpg" style="width:100%">
+    </div>  
+    <div class="column">
+     <img src="assets/img/IMG_20210613_120124.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="assets/img/IMG_20210613_120142.jpg" style="width:100%">
+    </div>
+  </div>
+   <!-- footer nav -->
+   <ul>
+    <li>
+      <a href="https://www.instagram.com/nandi.paramita/">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/paramita-nandi-a4299720a">
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.youtube.com/channel/UCSjZfmw9pfH6mbXBNPM7DXg">
+        <i class="fa fa-youtube" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+  
+  <script>
+    //dark mode
+    function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
+    <!-- fullnav js -->
+    <script src="assets/js/fullnav.js"></script>
+</body>
+</html>
